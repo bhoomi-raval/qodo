@@ -1,0 +1,16 @@
+// Either remove the file entirely if not using TypeScript
+// Or if planning to use TypeScript, rename files to .ts and add:
+{
+    "compilerOptions": {
+      "target": "ES2017",
+      "module": "commonjs",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "strictPropertyInitialization": false,
+      "outDir": "./dist"
+    },
+    "include": ["src/**/*"]
+}
+  
